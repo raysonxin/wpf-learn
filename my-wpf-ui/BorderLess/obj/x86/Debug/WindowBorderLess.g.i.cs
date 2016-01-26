@@ -9,6 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using BorderLess;
+using BorderLess.Control;
+using Microsoft.Windows.Shell;
 using System;
 using System.Diagnostics;
 using System.Windows;
