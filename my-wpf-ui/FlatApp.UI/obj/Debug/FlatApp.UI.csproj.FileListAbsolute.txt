@@ -1,0 +1,12 @@
+F:\Rayson\VisualStudio\WPFLearn\wpf-learn\my-wpf-ui\FlatApp.UI\bin\Debug\FlatApp.UI.dll
+F:\Rayson\VisualStudio\WPFLearn\wpf-learn\my-wpf-ui\FlatApp.UI\bin\Debug\FlatApp.UI.pdb
+F:\Rayson\VisualStudio\WPFLearn\wpf-learn\my-wpf-ui\FlatApp.UI\obj\Debug\FlatApp.UI.csprojResolveAssemblyReference.cache
+F:\Rayson\VisualStudio\WPFLearn\wpf-learn\my-wpf-ui\FlatApp.UI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+F:\Rayson\VisualStudio\WPFLearn\wpf-learn\my-wpf-ui\FlatApp.UI\obj\Debug\FlatApp.UI_MarkupCompile.cache
+F:\Rayson\VisualStudio\WPFLearn\wpf-learn\my-wpf-ui\FlatApp.UI\obj\Debug\FlatApp.UI_MarkupCompile.lref
+F:\Rayson\VisualStudio\WPFLearn\wpf-learn\my-wpf-ui\FlatApp.UI\obj\Debug\Themes\Generic.baml
+F:\Rayson\VisualStudio\WPFLearn\wpf-learn\my-wpf-ui\FlatApp.UI\obj\Debug\FlatApp.UI.g.resources
+F:\Rayson\VisualStudio\WPFLearn\wpf-learn\my-wpf-ui\FlatApp.UI\obj\Debug\FlatApp.UI.Properties.Resources.resources
+F:\Rayson\VisualStudio\WPFLearn\wpf-learn\my-wpf-ui\FlatApp.UI\obj\Debug\FlatApp.UI.csproj.GenerateResource.Cache
+F:\Rayson\VisualStudio\WPFLearn\wpf-learn\my-wpf-ui\FlatApp.UI\obj\Debug\FlatApp.UI.dll
+F:\Rayson\VisualStudio\WPFLearn\wpf-learn\my-wpf-ui\FlatApp.UI\obj\Debug\FlatApp.UI.pdb
