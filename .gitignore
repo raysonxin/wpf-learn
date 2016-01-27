@@ -1,0 +1,4 @@
+*.lref
+my-wpf-ui/FlatApp.UI/obj/Debug/FlatApp.UI_MarkupCompile.i.cache
+*.cache
+*.cache

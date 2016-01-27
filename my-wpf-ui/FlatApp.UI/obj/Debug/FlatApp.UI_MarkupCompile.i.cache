@@ -4,17 +4,17 @@
 library
 C#
 .cs
-E:\Coding\MyGithub\wpf-learn\my-wpf-ui\FlatApp.UI\obj\Debug\
+F:\Rayson\VisualStudio\WPFLearn\wpf-learn\my-wpf-ui\FlatApp.UI\obj\Debug\
 FlatApp.UI
 none
 false
 DEBUG;TRACE
 
-2643127971
+52033811476
 
-81883009425
-12-114506869
-Styles\Colors.xaml;Themes\Generic.xaml;
+10738504772
+131376151637
+Controls\CaptionButtons.xaml;Styles\Colors.xaml;Themes\FlatWindow.xaml;Themes\Generic.xaml;Themes\IconButton.xaml;
 
 False
 
