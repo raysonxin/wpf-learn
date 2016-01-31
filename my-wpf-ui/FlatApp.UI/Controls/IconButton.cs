@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using FlatApp.UI.Helper;
 
 namespace FlatApp.UI.Controls
 {
@@ -67,6 +68,35 @@ namespace FlatApp.UI.Controls
         {
             get { return (string)this.GetValue(IconProperty); }
             set { this.SetValue(IconProperty, value); }
+        }
+
+        public static readonly DependencyProperty IsShowTitleProperty =
+            DependencyProperty.Register("IsShowTitle", typeof(bool), typeof(IconButton), new PropertyMetadata(true, OnVisibilityChanged));
+
+        public bool IsShowTitle
+        {
+            get { return (bool)this.GetValue(IsShowTitleProperty); }
+            set { this.SetValue(IsShowTitleProperty, value); }
+        }
+
+        private static void OnVisibilityChanged(DependencyObject obj, DependencyPropertyChangedEventArgs args)
+        {
+            if (obj is IconButton)
+            {
+                var btn = obj as IconButton;
+                var container = XamlHelper.GetChildObject<StackPanel>(obj, "Container");
+
+                if (container == null)
+                    return;
+
+
+
+                var textblock = XamlHelper.GetChildObject<TextBlock>(container, "IconBtnText");
+                if (textblock == null)
+                    return;
+
+                textblock.Visibility = btn.IsShowTitle ? Visibility.Visible : Visibility.Collapsed;
+            }
         }
     }
 }

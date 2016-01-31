@@ -15,4 +15,7 @@ F:\Rayson\VisualStudio\WPFLearn\wpf-learn\my-wpf-ui\FlatApp.UI\obj\Debug\FlatApp
 F:\Rayson\VisualStudio\WPFLearn\wpf-learn\my-wpf-ui\FlatApp.UI\obj\Debug\FlatApp.UI.dll
 F:\Rayson\VisualStudio\WPFLearn\wpf-learn\my-wpf-ui\FlatApp.UI\obj\Debug\FlatApp.UI.pdb
 F:\Rayson\VisualStudio\WPFLearn\wpf-learn\my-wpf-ui\FlatApp.UI\obj\Debug\Themes\IconButton.baml
+F:\Rayson\VisualStudio\WPFLearn\wpf-learn\my-wpf-ui\FlatApp.UI\obj\Debug\Themes\FlatIcon.baml
 F:\Rayson\VisualStudio\WPFLearn\wpf-learn\my-wpf-ui\FlatApp.UI\obj\Debug\FlatApp.UI.csprojResolveAssemblyReference.cache
+F:\Rayson\VisualStudio\WPFLearn\wpf-learn\my-wpf-ui\FlatApp.UI\obj\Debug\Styles\Fonts.baml
+F:\Rayson\VisualStudio\WPFLearn\wpf-learn\my-wpf-ui\FlatApp.UI\obj\Debug\Themes\FlatButton.baml

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 
-52033811476
+81120577123
 
-10738504772
+131964942184
 131376151637
-Controls\CaptionButtons.xaml;Styles\Colors.xaml;Themes\FlatWindow.xaml;Themes\Generic.xaml;Themes\IconButton.xaml;
+Controls\CaptionButtons.xaml;Styles\Colors.xaml;Styles\Fonts.xaml;Themes\FlatButton.xaml;Themes\FlatIcon.xaml;Themes\FlatWindow.xaml;Themes\Generic.xaml;Themes\IconButton.xaml;
 
 False
 

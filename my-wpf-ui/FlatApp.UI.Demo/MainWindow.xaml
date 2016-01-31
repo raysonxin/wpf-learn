@@ -3,7 +3,12 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:flat="clr-namespace:FlatApp.UI.Controls;assembly=FlatApp.UI"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        <flat:IconButton Title="测试按钮" Icon="&#xf01a;" Width="250" Height="50"/>
-    </Grid>
+    <StackPanel>
+        <flat:IconButton Title="测试按钮" Icon="&#xf01a;" Height="35" x:Name="btnTest" Click="btnTest_Click"/>
+        <Button Content="Test" Click="Button_Click"  Height="30" Width="50"/>
+        <flat:FlatIcon IconText="&#xf01a;" FontSize="40" Foreground="#FFEA9E82"/>
+        <flat:FlatButton  FIcon="&#xf01a;" Width="140" Height="40" Margin="3">Flat Button</flat:FlatButton>
+
+        <flat:FlatButton  FIcon="&#xf01a;" Width="140" Height="40" Margin="3" Style="{DynamicResource FlatButtonTransparent}">Transparent</flat:FlatButton>
+    </StackPanel>
 </flat:FlatWindow>

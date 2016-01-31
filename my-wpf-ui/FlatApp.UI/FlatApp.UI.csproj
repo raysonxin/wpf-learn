@@ -58,6 +58,18 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Styles\Fonts.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\FlatButton.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\FlatIcon.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Themes\FlatWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -69,6 +81,8 @@
     <Compile Include="Controls\CaptionButtons.xaml.cs">
       <DependentUpon>CaptionButtons.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Controls\FlatButton.cs" />
+    <Compile Include="Controls\FlatIcon.cs" />
     <Compile Include="Controls\FlatWindow.cs" />
     <Page Include="Themes\IconButton.xaml">
       <SubType>Designer</SubType>
@@ -77,6 +91,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controls\IconButton.cs" />
+    <Compile Include="Helper\XamlHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

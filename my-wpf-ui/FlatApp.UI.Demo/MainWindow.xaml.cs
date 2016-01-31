@@ -25,5 +25,15 @@ namespace FlatApp.UI.Demo
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            btnTest.IsShowTitle = !btnTest.IsShowTitle;
+        }
+
+        private void btnTest_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
