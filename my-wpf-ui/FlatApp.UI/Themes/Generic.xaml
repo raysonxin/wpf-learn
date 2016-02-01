@@ -4,14 +4,7 @@
     xmlns:local="clr-namespace:FlatApp.UI.Controls">
 
 
-    <Style x:Key="FlatIconStyle" TargetType="TextBlock">
-        <Setter Property="FontFamily" Value="{DynamicResource FontAwesome}"></Setter>
-        <!--<Setter Property="Foreground" Value="Red"/>-->
-        <Setter Property="TextAlignment" Value="Center"/>
-        <Setter Property="HorizontalAlignment" Value="Center"/>
-        <Setter Property="VerticalAlignment" Value="Center"/>
-        <Setter Property="FontSize" Value="20"/>
-    </Style>
+   
     
     <ResourceDictionary.MergedDictionaries>
 
@@ -22,19 +15,20 @@
         <ResourceDictionary Source="/FlatApp.UI;component/Themes/IconButton.xaml"/>
         <ResourceDictionary Source="/FlatApp.UI;component/Themes/FlatIcon.xaml"/>
         <ResourceDictionary Source="/FlatApp.UI;component/Themes/FlatButton.xaml"/>
+        <ResourceDictionary Source="/FlatApp.UI;component/Themes/FlatToggleButton.xaml"/>
+        <ResourceDictionary Source="/FlatApp.UI;component/Themes/ProgressRing.xaml"/>
+        <ResourceDictionary Source="/FlatApp.UI;component/Themes/BusyBox.xaml"/>
     </ResourceDictionary.MergedDictionaries>
-    <!--<Style TargetType="{x:Type local:IconButton}">
-        <Setter Property="Template">
-            <Setter.Value>
-                <ControlTemplate TargetType="{x:Type local:IconButton}">
-                    <Border Background="{TemplateBinding Background}"
-                            BorderBrush="{TemplateBinding BorderBrush}"
-                            BorderThickness="{TemplateBinding BorderThickness}">
-                    </Border>
-                </ControlTemplate>
-            </Setter.Value>
-        </Setter>
-    </Style>-->
 
-    
+
+    <Style x:Key="FlatIconStyle" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{DynamicResource FontAwesome}"></Setter>
+        <!--<Setter Property="Foreground" Value="Red"/>-->
+        <Setter Property="TextAlignment" Value="Center"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="FontSize" Value="20"/>
+    </Style>
+
+  
 </ResourceDictionary>

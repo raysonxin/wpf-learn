@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 using FlatApp.UI.Controls;
 
 namespace FlatApp.UI.Demo
@@ -24,11 +25,33 @@ namespace FlatApp.UI.Demo
         public MainWindow()
         {
             InitializeComponent();
+            rtxt.AppendText("sdkfjskdjfksdjfksjdkfjskagahsigfiwagjiwagiasjigj");
         }
+
+        double progressValue = 0;
+        DispatcherTimer timer = new DispatcherTimer();
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            btnTest.IsShowTitle = !btnTest.IsShowTitle;
+            //btnTest.IsShowTitle = !btnTest.IsShowTitle;
+            progressValue = 0;
+           
+            timer.Interval = TimeSpan.FromMilliseconds(500);
+            timer.Tick += timer_Tick;
+            timer.Start();
+        }
+
+
+
+        void timer_Tick(object sender, EventArgs e)
+        {
+            progressValue += 0.05;
+            circleBar2.Value = progressValue;
+            circleBar.Value = progressValue;
+            if (progressValue >= 1)
+            {
+                timer.Stop();
+            }
         }
 
         private void btnTest_Click(object sender, RoutedEventArgs e)
